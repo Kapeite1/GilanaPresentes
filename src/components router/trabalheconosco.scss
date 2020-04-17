@@ -1,0 +1,27 @@
+.component-trabalheconosco {
+    display: flex;
+    flex-direction: column;
+    background: rgba(128, 128, 128, 0.068);
+    h1 {
+        text-align: center;
+    }
+    .formulario {
+        padding: 2%;
+        display: flex;
+    }
+    .form-group {
+        margin-right: 35px;
+        width: 300px;
+    }
+    .informacao {
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        padding: 0 3%;
+        h1 {
+            line-height: 6vh;
+        }
+    }
+}

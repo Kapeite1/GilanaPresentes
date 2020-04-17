@@ -1,0 +1,38 @@
+.component-copyright {
+    display: flex;
+    padding: 0 3%;
+
+    img {
+        margin: 7%;
+        width: 150px;
+        border-radius: 20px;
+    }
+    
+    img:hover {
+        box-shadow: 0 0 1em #00aff0;
+    }
+
+    .text-copyright {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    p {
+        line-height: 2px;
+        text-align: center;
+        font-size: 13px;
+        color: gray;
+    }
+
+    .media-copyright {
+        width: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        a {
+            margin-right: 10px;
+        }        
+    }
+}

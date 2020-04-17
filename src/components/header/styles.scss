@@ -1,0 +1,44 @@
+
+.component-header {
+    width: 100%;
+    background: #00aff0;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    .logo {
+        width: 18%;     
+    }
+
+    .search-container {
+        width: 25%;
+        margin-left: auto;
+        margin-right: 5%;
+    }
+
+    .search-container input {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 3%;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    }
+
+    .search-container button {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 20%;
+    padding: 3%;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    }
+
+}
