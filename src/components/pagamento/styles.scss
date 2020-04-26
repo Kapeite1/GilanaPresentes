@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     border-bottom: 1px solid rgba(128, 128, 128, 0.562);
-    justify-content: center;
+    justify-content: space-around;
     .x1 {
         display: flex;
     }
@@ -10,7 +10,7 @@
     .x2 { /* div da imagem*/
         display: flex;
         align-items: center;
-        padding-right: 3%;
+        margin-right: 15px;
         img {
             width: 50px;
         }

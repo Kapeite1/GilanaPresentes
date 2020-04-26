@@ -55,6 +55,14 @@ function Produtos(){
                 foto={item3}
                 descricao="Borracha"
                 preco="R$ 3,50"/>
+                 <Item
+                foto={item3}
+                descricao="Borracha"
+                preco="R$ 3,50"/>
+                <Item
+                foto={item3}
+                descricao="Borracha"
+                preco="R$ 3,50"/>
                 <Item
                 foto={item3}
                 descricao="Borracha"

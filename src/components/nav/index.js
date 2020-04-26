@@ -8,9 +8,9 @@ function Navigator() {
         <nav className='component-nav'>
             <div>
                 <Link to="/">HOME</Link>
-                <Link to="/historia">HISTÓRIA</Link>
+                <Link to="/servicos">SERVIÇOS</Link>
                 <Link to="/nossa loja">NOSSA LOJA</Link>
-                <Link to="/produtos">ENCARTE VIRTUAL</Link>
+                <Link to="/encarte virtual">ENCARTE VIRTUAL</Link>
                 <div class="dropdown">
                     <button class="dropbtn">CONTATO<ArrowDropDownIcon /></button>
                     <div class="dropdown-content">

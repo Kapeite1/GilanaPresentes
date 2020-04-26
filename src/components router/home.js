@@ -14,7 +14,7 @@ function Home() {
             <Header />
             <Navigator />
             <Publicacao />
-            <Pagamento />
+            
             <Produtos />
             <Informacoes />
             <Footer />

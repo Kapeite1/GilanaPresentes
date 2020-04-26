@@ -47,12 +47,12 @@ function Footer () {
                     </div>
                     <div className='informacao-footer'>
                         <p className='estilo1'>INSTITUCIONAL</p>
-                        <a href="#">HOME</a>
-                        <a href="#">HISTÓRIA</a>
-                        <a href="#">NOSSA LOJA</a>
-                        <a href="#">FALE CONOSCO</a>
+                        <Link to="/">HOME</Link>
+                        <Link to="/servicos">SERVIÇOS</Link>
+                        <Link to="/nossa loja">NOSSA LOJA</Link>
+                        <Link to="/fale conosco">FALE CONOSCO</Link>
                         <Link to="/trabalhe conosco">TRABALHE CONOSCO </Link>
-                        <a href="#">ENCARTE VIRTUAL</a>
+                        <Link to="/encarte virtual">ENCARTE VIRTUAL</Link>
                     </div>
                     <div className='informacao-footer'>
                         <p className='estilo2'>FORMAS DE PAGAMENTO</p>
