@@ -5,9 +5,15 @@ import Footer from '../components/footer'
 import Copyright from '../components/copyright'
 import './encartevirtual.scss'
 
+function scrollToTop ()  {
+    window.scrollTo(0, 0)
+  }
+
+
 function Encarte() {
     return (
         <div>
+            {scrollToTop()}
             <Header />
             <Navigator />
             <div className='encarte'>
@@ -16,6 +22,7 @@ function Encarte() {
             <Footer />
             <Copyright />
         </div>
+        
     )
 }
 

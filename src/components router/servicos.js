@@ -5,12 +5,19 @@ import Footer from '../components/footer';
 import Copyright from '../components/copyright'
 import './servicos.scss'
 
+// ao carregar a pagina leva para o topo
+function scrollToTop ()  {
+    window.scrollTo(0, 0)
+}
+
+//importa toras as imagems da pasta img
 function importAll(r) {
     let images = {};
     r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
     return images;
 }
 
+//container de cada item
 function Servicoitem(props) {
     return(
         <div className="item">
@@ -27,7 +34,8 @@ function Servicoitem(props) {
 function Servicos() {
     const images = importAll(require.context('./img', false));
     return(
-        <div className="component-servicos">
+        <div className="component-servicos">   
+            {scrollToTop()}
             <h1>Serviços de Papelaria</h1>
             <div className="servicos-explicando">
                 <Servicoitem

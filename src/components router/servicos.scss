@@ -24,9 +24,15 @@
         color: orangered;
         font-size: 20px;
     }
-    .informacao{
-        font-size: 16px;
-    }
-    img{
+}
+
+@media (max-width: 711px) {
+    .component-servicos{
+        h1 {
+            text-align: center;
+        }
+        .servicos-explicando{
+            justify-content: center;
+        }
     }
 }

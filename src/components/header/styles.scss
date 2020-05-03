@@ -42,3 +42,24 @@
     }
 
 }
+/*
+@media (max-width: 768px) {
+    .component-header {
+        flex-direction: column;
+        .logo {
+            width: 80%;
+        }
+        .search-container {
+            display: none;
+        }
+    }
+    
+  }
+*/
+
+@media (max-width: 768px) {
+    .component-header {
+        display: none;
+    }
+    
+  }

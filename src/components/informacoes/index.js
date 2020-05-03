@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.scss';
 import sac from './img/SAC.png';
+import impressao from './img/impressao.png';
 
 function Item (props) {
     return(
@@ -21,28 +22,16 @@ function Informacoes () {
                 img={sac}
                 nome='SAC'
                 nome2='Serviço de Atendimento ao Cliente'
-                texto='Tire suas dúvidas à respeito de produtos, prazos, formas de pagamento, 
-                serviço de entrega, posição de pedidos entre outros assuntos. Estamos prontos 
-                para atendê-lo de forma rápida e fácil.'
+                texto='Tire suas dúvidas à respeito de produtos, prazos, formas de pagamento, posição de pedidos entre outros assuntos. Estamos prontos para atendê-lo de forma rápida e fácil.'
                 lf='Telefone: (22) 2778-4891'
                 />
                 <Item 
-                img={sac}
-                nome='SAC'
-                nome2='Serviço de Atendimento ao Cliente'
-                texto='Tire suas dúvidas à respeito de produtos, prazos, formas de pagamento, 
-                serviço de entrega, posição de pedidos entre outros assuntos. Estamos prontos 
-                para atendê-lo de forma rápida e fácil.'
-                lf='Telefone: (22) 2778-4891'
-                />
-                <Item 
-                img={sac}
-                nome='TELEVENDAS'
-                nome2='Compre sem sair de casa'
-                texto='Agora ficou mais fácil comprar na Gilana Presentes! Compre tudo com
-                seu cartão de crédito sem sair de casa. Quer saber mais? Entre em contato através
+                img={impressao}
+                nome='SERVIÇOS IMPRESSÃO'
+                nome2='Envie seus documentos pelo Whatsapp'
+                texto='Venha imprimir seus documentos na Gilana Presentes! Envie diretamente para o Whatsapp do setor de impressões. Quer saber mais? Entre em contato através
                 do nosso WhatsApp.'
-                lf='Telefone: (22) 2778-4891'
+                lf='Telefone: (22) 999608-2881'
                 />
         </div>
     )

@@ -1,9 +1,11 @@
 import React from 'react';
 import "./styles.scss";
-import item1 from './img/item.jpg';
-import item2 from './img/item2.jpg';
-import item3 from './img/item3.jpg';
+import mop from './img/mop.jpg';
+import item3 from './img/item2.jpg';
+import caderno from './img/caderno.jpg';
+import kimeleka from './img/kimeleka.png'
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom'
 
 function Item(props){
     return (
@@ -36,38 +38,27 @@ function Produtos(){
             </div>
             <div className="produtos">
                 <Item
-                foto={item1}
-                descricao="Borracha"
-                preco="R$ 0,50"/>
+                foto={kimeleka}
+                descricao="Kimeleka Slime Glitter 180g Cores - Acrilex"
+                preco="R$ 5,99"/>
                 <Item
-                foto={item2}
-                descricao="Borracha para Desenho"
-                preco="R$ 1,50"/>
+                foto={mop}
+                descricao="Balde Mop Spin Mop360"
+                preco="R$ 52,90"/>
                 <Item
-                foto={item3}
-                descricao="Borracha"
+                foto={caderno}
+                descricao="Caderno Espiral Capa Dura Colegial 10 Matérias Aloha 160 Folhas"
                 preco="R$ 2,90"/>
                 <Item
                 foto={item3}
                 descricao="Borracha"
                 preco="R$ 3,50"/>
-                <Item
-                foto={item3}
-                descricao="Borracha"
-                preco="R$ 3,50"/>
-                 <Item
-                foto={item3}
-                descricao="Borracha"
-                preco="R$ 3,50"/>
-                <Item
-                foto={item3}
-                descricao="Borracha"
-                preco="R$ 3,50"/>
-                <Item
-                foto={item3}
-                descricao="Borracha"
-                preco="R$ 3,50"/>
             </div>
+            <Link to="/encarte virtual">
+                <Button renderAs="button">
+                    <span>Ver mais</span>
+                </Button>
+            </Link>
         </div>
     )
 }

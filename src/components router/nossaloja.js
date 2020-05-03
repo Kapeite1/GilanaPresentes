@@ -5,6 +5,10 @@ import Footer from '../components/footer'
 import Copyright from '../components/copyright'
 import { GoogleMap, withScriptjs, withGoogleMap } from 'react-google-maps'
 
+function scrollToTop ()  {
+    window.scrollTo(0, 0)
+  }
+
 function Map () {
     return (
         <GoogleMap defaultZoom={16} defaultCenter={{lat: -22.4784114, lng: -42.2029078}}/>
@@ -16,6 +20,7 @@ const WrappedMap = withScriptjs(withGoogleMap(Map))
 function NossaLoja() {
     return (
         <div>
+            {scrollToTop()}
             <Header />
             <Navigator />
             <WrappedMap googleMapURL={'https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places'}

@@ -6,6 +6,10 @@ import Copyright from '../components/copyright'
 import { Form, Button } from 'react-bootstrap'
 import './trabalheconosco.scss'
 
+function scrollToTop ()  {
+    window.scrollTo(0, 0)
+}
+
 function Formulario () {
 
     //inicio para envio de email
@@ -55,6 +59,7 @@ function Formulario () {
 
     return (
         <div className='component-trabalheconosco'>
+            {scrollToTop()}
             <h1>Trabalhe Conosco</h1>
             <div className='formulario'>
                 <Form onSubmit={handleSubmit}>

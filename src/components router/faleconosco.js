@@ -5,6 +5,16 @@ import Footer from '../components/footer'
 import Copyright from '../components/copyright'
 import { Form, Button, Alert } from 'react-bootstrap'
 import './faleconosco.scss'
+import SelectInput from '@material-ui/core/Select/SelectInput';
+
+
+function popupmsg() {
+    document.getElementById("teste3").style.display = "block";
+  }
+
+function scrollToTop ()  {
+    window.scrollTo(0, 0)
+  }
 
 function Contato () {
     
@@ -15,10 +25,7 @@ function Contato () {
         telefone: "",
         assunto: "",
         mensagem: ""
-
       })
-
-
 
     function handleChange(e) {
     const value = e.target.value;
@@ -50,6 +57,7 @@ function Contato () {
       
     return (
         <div className='component-contato'>
+            {scrollToTop()}
             <div className='formulario'>
                 <Form onSubmit={handleSubmit}>
                 <Form.Group>
@@ -73,9 +81,12 @@ function Contato () {
                     <Form.Label>Mensagem:</Form.Label>
                     <Form.Control as="textarea" rows="3" name='mensagem' onChange={handleChange} />
                 </Form.Group>
-                    <Button variant="primary" type="submit" >
-                        Enviar
-                    </Button>
+                <div id='teste3'>
+                    <p>Teste3</p>    
+                </div>
+                <Button variant="primary" type="submit" onClick='popupmsg()' >
+                    Enviar
+                </Button>
                 </Form>
             </div>
         </div>
