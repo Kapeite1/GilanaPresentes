@@ -11,7 +11,7 @@ function Item(props){
     return (
         <div className="item">
             <div className="imagem">
-                <img src={props.foto}></img>
+                <img src={props.foto} alt='imagem produto'></img>
             </div>
             <div className="informacao">
                 <p>{props.descricao}</p>

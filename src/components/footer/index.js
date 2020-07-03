@@ -57,7 +57,7 @@ function Footer () {
                     <div className='informacao-footer'>
                         <p className='estilo2'>FORMAS DE PAGAMENTO</p>
                         <div className='img-pag'>
-                            <img src={formasPagamento}></img>
+                            <img src={formasPagamento} alt='formas pagamentos'></img>
                         </div>
                     </div>
                 </div>                

@@ -21,7 +21,7 @@ function importAll(r) {
 function Servicoitem(props) {
     return(
         <div className="item">
-            <img src={props.imagem}></img>
+            <img src={props.imagem} alt='imagem servico'></img>
             <div>
                 <p className='title'>{props.item1}</p>
                 <p className='informacao'>{props.item2}</p>

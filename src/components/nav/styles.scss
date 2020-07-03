@@ -106,7 +106,6 @@
       flex-direction: column;
       text-align: center;
       display: none;
-      transition: 1s;
     }
     .component-nav2 {
       width: 100%;
@@ -116,17 +115,14 @@
       border-radius: 5px;
       background: rgb(78, 149, 255);
       display: block;
-      transition: 1s;
     }
     a {
       width: 100%;
       display: block;
-      transition: 1s;
     }
     .dropdown {
       width: 100%;
       display: block;
-      transition: 1s;
     }
   }
 }

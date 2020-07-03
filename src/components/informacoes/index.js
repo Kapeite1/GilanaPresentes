@@ -6,7 +6,7 @@ import impressao from './img/impressao.png';
 function Item (props) {
     return(
         <div className='info'>
-            <img src={props.img}></img>
+            <img src={props.img} alt='imagem'></img>
             <p style={{fontWeight: "bold"}}>{props.nome}</p>
             <p style={{marginBottom: "5%"}}>{props.nome2}</p>
             <p style={{marginBottom: "5%"}}>{props.texto}</p>

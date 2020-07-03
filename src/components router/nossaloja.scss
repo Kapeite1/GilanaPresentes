@@ -1,0 +1,12 @@
+.mapa2 {
+    display: none;
+}
+
+@media (max-width: 760px) {
+    .mapa2 {
+        display: block;
+    }
+    .mapa1 {
+        display: none;
+    }
+}

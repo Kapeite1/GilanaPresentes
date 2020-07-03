@@ -1,4 +1,4 @@
-import React, { useState, setState }from 'react';
+import React, { useState }from 'react';
 import Header from "../components/header";
 import Navigator from  "../components/nav"
 import Footer from '../components/footer'

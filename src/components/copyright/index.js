@@ -18,8 +18,8 @@ function Copyright () {
             <div className='media-copyright'>
                 <div>
                     <a target='_blank' href="https://pt-br.facebook.com/gilanapresentes/"><FacebookIcon fontSize= 'large' /></a>
-                    <a href=""><InstagramIcon fontSize= 'large'/></a>
-                    <a href=""><EmailIcon fontSize= 'large'/></a>
+                    <a href="https://www.instagram.com/gilanapresentes/?hl=pt-br"><InstagramIcon fontSize= 'large'/></a>
+                    <a href="mailto:gilanapresentes@hotmail.com"><EmailIcon fontSize= 'large'/></a>
                 </div>
             </div>
         </div>

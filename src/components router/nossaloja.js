@@ -3,19 +3,14 @@ import Header from "../components/header";
 import Navigator from  "../components/nav"
 import Footer from '../components/footer'
 import Copyright from '../components/copyright'
-import { GoogleMap, withScriptjs, withGoogleMap } from 'react-google-maps'
+import mapa from './img/mapa.PNG'
+import mapa2 from './img/mapa2.png'
+import './nossaloja.scss'
 
 function scrollToTop ()  {
     window.scrollTo(0, 0)
   }
 
-function Map () {
-    return (
-        <GoogleMap defaultZoom={16} defaultCenter={{lat: -22.4784114, lng: -42.2029078}}/>
-    )
-}
-
-const WrappedMap = withScriptjs(withGoogleMap(Map))
 
 function NossaLoja() {
     return (
@@ -23,11 +18,10 @@ function NossaLoja() {
             {scrollToTop()}
             <Header />
             <Navigator />
-            <WrappedMap googleMapURL={'https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places'}
-            loadingElement={<div style= {{height: '100%'}} />}
-            containerElement={<div style={{ height: `400px` }} />}
-            mapElement={<div style={{ height: `100%` }} />}
-            />
+            <a target="_blank" rel="noopener" href='https://www.google.com.br/maps/dir//GILANA+PRESENTES+BAZAR+LTDA+ME+-+Rua+Laura+Teixeira+da+Silva+-+Centro,+Casimiro+de+Abreu+-+RJ/@-22.4798065,-42.2063078,16.5z/data=!4m9!4m8!1m0!1m5!1m1!1s0x97bd07d5eec587:0x7b2d5bb20a5dc4ee!2m2!1d-42.2032444!2d-22.4784361!3e2'>
+                <img src={mapa} alt='Mapa' className='mapa1'></img>
+                <img src={mapa2} alt='Mapa' className='mapa2'></img>
+            </a>
             <Footer />
             <Copyright />
         </div>

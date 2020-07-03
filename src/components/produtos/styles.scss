@@ -16,12 +16,10 @@
         text-decoration: none;
     }
     .titulo {
-        background: white;
-        width: 100%;
+        width: 75%;
         padding-top: 1%;
         display: flex;
-        justify-content: center;
-        font-size: 30px;
+        font-size: 25px;
         font-weight: bold;
     }
 
@@ -35,13 +33,16 @@
 
     .item { /* estilo de cada item*/
         margin-top: 2%;
+        margin-right: 20px;
         border-radius: 5px;
         width: 250px;
         height: 450px;
-        border: 1px solid #ededed;
         display: flex;
         transition: 0.5s;
         padding-bottom: 1%;
+        -webkit-box-shadow: 10px 10px 47px -30px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 47px -30px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 47px -30px rgba(0,0,0,0.75);
         .imagem { /* a div que fica a imagem*/
             padding: 3%;
             height: 100%;
@@ -51,7 +52,7 @@
         }
         
         .informacao {
-            width: 100%;
+            width: 95%;
             text-align: center;
             display: flex;
             flex-direction: column;
@@ -75,7 +76,6 @@
     
     .item:hover{
         box-shadow: 0 0 1em rgba(128, 128, 128, 0.397);
-        border: 1px solid 	rgb(240, 240, 240);
     } 
 }
 

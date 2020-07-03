@@ -1,16 +1,10 @@
-import React, { useState, setState } from 'react';
+import React, { useState } from 'react';
 import Header from "../components/header";
 import Navigator from  "../components/nav"
 import Footer from '../components/footer'
 import Copyright from '../components/copyright'
-import { Form, Button, Alert } from 'react-bootstrap'
+import { Form, Button} from 'react-bootstrap'
 import './faleconosco.scss'
-import SelectInput from '@material-ui/core/Select/SelectInput';
-
-
-function popupmsg() {
-    document.getElementById("teste3").style.display = "block";
-  }
 
 function scrollToTop ()  {
     window.scrollTo(0, 0)
